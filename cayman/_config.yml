@@ -1,11 +1,12 @@
 title: Math blog
 description: Game theory
 show_downloads: false
-google_analytics:
-theme: jekyll-theme-cayman
-# Tell Pages to fetch Cayman remotely (with a version tag)
+# Remove or replace with your own Tracking ID if you actually want analytics:
+# google_analytics: UA‑XXXXXXX‑X
+
+# Pull in Cayman from GitHub Pages’ supported themes repo:
 remote_theme: pages-themes/cayman@v0.2.0
 
-# Enable the remote-theme plugin
+# Enable the remote-theme plugin so `remote_theme` works:
 plugins:
   - jekyll-remote-theme

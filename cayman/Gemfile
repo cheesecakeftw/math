@@ -1,5 +1,4 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
-gemspec
+# GitHub Pages includes jekyll-remote-theme for you and pins versions
+gem "github-pages", group: :jekyll_plugins
