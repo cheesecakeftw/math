@@ -3,7 +3,9 @@ description: Game theory
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
+# Tell Pages to fetch Cayman remotely (with a version tag)
+remote_theme: pages-themes/cayman@v0.2.0
 
-remote_theme: pages-themes/cayman
+# Enable the remote-theme plugin
 plugins:
   - jekyll-remote-theme
