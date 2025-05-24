@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-s
+ $\frac{a}{b}$,
 
 [Link to another page](./another-page.html).
 
