@@ -106,20 +106,25 @@ a:hover {
    ========================================================================== */
 
 
-.day-nav {
-  margin-top: 3rem;
-  text-align: right;
+.day-nav-wrapper {
+  display: flex;
+  justify-content: space-between;  /* pushes one link to the left, one to the right */
+  align-items: center;             /* makes sure they line up vertically */
+  margin-top: 3rem;                /* same as you had before */
 }
 
+/* you can keep your existing link styles */
 .day-nav__link {
   text-decoration: none;
-
+  color: inherit;
 }
 
 .day-nav__link:hover {
   text-decoration: underline;
 }
-
+.day-nav-wrapper .day-nav__link:last-child {
+  margin-left: auto;
+}
 
 abbr[title] {
   border-bottom: 1px dotted;

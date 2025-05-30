@@ -23,6 +23,6 @@ Note that Cauchy Sequences do not converge in every space. In the previous examp
 
 Another important property is that, in any space, a Cauchy sequence is bounded. This is because if $d$ is the farthest any earlier term is from $x_N$, then every term is within $d + 1$ of $x_N$, so the sequence is bounded. Also note that if $$f : M \to N$$ is a uniformly continuous map between the metric spaces $$M$$ and $$N$$ and $$(a_n)$$ is a Cauchy sequence in $$M$$, then $$(f(a_n))$$ is also a Cauchy sequence in $$N$$. These properties allow us to derive the [Bolzano–Weierstrass theorem](https://en.wikipedia.org/wiki/Bolzano%E2%80%93Weierstrass_theorem), which states that every bounded sequence has a convergent subsequence. This theorem can be applied to all Cauchy sequences in $$\mathbf{R}$$.
 
-<div class="day-nav">
-  <a href="./day2.html" class="day-nav__link">Next: 2</a>
+<div class="day-nav-wrapper">
+  <a href="./day2.html" class="day-nav__link">Next: #2</a>
 </div>

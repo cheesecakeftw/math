@@ -8,7 +8,7 @@ Hi! This page will cover one theorem or mathematical idea every day. We will be 
 
 This guide is NOT a comprehensive reference and is meant only as a quick and fun introduction.
 
-## Real Analysis
+## Real Analysis (Days 1-7)
 
 #[1](./REAL_ANALYSIS/day1.html)  #[2](./REAL_ANALYSIS/day2.html)  
 
