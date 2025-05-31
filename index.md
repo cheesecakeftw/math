@@ -10,5 +10,5 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 
 ## Real Analysis (Days 1-7)
 
-#[1](./REAL_ANALYSIS/day1.html)  #[2](./REAL_ANALYSIS/day2.html)  #[3](./REAL_ANALYSIS/day3.html)  
+#[1](./REAL_ANALYSIS/day1.html)  #[2](./REAL_ANALYSIS/day2.html)  #[3](./REAL_ANALYSIS/day3.html) #[4](./REAL_ANALYSIS/day4.html)  
 

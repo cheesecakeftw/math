@@ -116,7 +116,7 @@ a:hover {
 /* you can keep your existing link styles */
 .day-nav__link {
   text-decoration: none;
-  color: inherit;
+  color: blue($color: #000000);
 }
 
 .day-nav__link:hover {

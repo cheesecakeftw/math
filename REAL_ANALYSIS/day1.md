@@ -12,7 +12,7 @@ $$\forall \varepsilon > 0,\ \exists N \in \mathbb{N}, \,\ \forall m,n > N,\left|
 Definition: Let $$x_1,x_2,\ldots$$ be a sequence of rational numbers. Then we can call this sequence a Cauchy sequence if for every $$
 \varepsilon>0$$, there is some $$N>0$$ so that whenever $$m,n>N$$, then $$\left| x_m - x_n \right|<\varepsilon$$
 
-One really interesting property that shows if a sequence is Cauchy is that it always converges. The converse, that if a sequence has a limit, then it is Cauchy, is also true. A sequence converging just means that as the sequence progresses it is getting closer and closer to a particular number. It could also be said that the distance between the n-th term and the number the sequence converges to is reducing.
+To start this math series lets discuss one of the cornerstones of analysis, a theorem which explains how to approximate a real number without taking the ratio! One really interesting property that shows if a sequence is Cauchy is that it always converges. The converse, that if a sequence has a limit, then it is Cauchy, is also true. A sequence converging just means that as the sequence progresses it is getting closer and closer to a particular number. It could also be said that the distance between the n-th term and the number the sequence converges to is reducing.
 
 A really cool example of this idea would be the expansion of $$\sqrt{2}$$. The sequence defined as 
 $$x_0 = 1, x_1 = \frac{3}{2}, x_2 = \frac{17}{12}, x_3 = \frac{577}{408}, \ldots$$ 
