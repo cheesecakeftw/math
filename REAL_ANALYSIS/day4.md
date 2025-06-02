@@ -22,7 +22,7 @@ There are some really interesting rules that two functions $$f$$ and $$g$$ and t
 Derivatives also have some really cool properties. If $$f$$ is differentiable everywhere than it is a continuous function. However, the vice versa isn't true. For example, the absolute value function $$f(x) = \lvert x \rvert$$ is continuous at every point but it doesn't have a derivative at $$x=0$$. This can be proved using the limit derivation defined earlier of a derivative. Additionally, a differentiable function is critical to the complex plane because it establishes a property known as [holomorphism](https://en.wikipedia.org/wiki/Holomorphic_function), which we discuss further later. 
 
 Side‑note for Power rule (defining $$ x^r$$ for all real $$r $$):
-For $$ x > 0 $$, let $$ x^k = \sup \{ y > 0 : y^k < x \}, \,  x^{p/q} = (x^q)^p \quad \left( \frac{p}{q} \in \mathbb{Q} \right), \, x^r = \sup \{ x^s : s \in \mathbb{Q},\, s < r \}.$$
+For $$ x > 0 $$, let $$ x^k = \sup \{ y > 0 : y^k < x \}, \,  x^{p/q} = (x^q)^p \quad \left( \frac{p}{q} \in Q \right), \, x^r = \sup \{ x^s : s \in Q,\, s < r \}.$$
 
 <div class="day-nav-wrapper">
   <a href="./day3.html" class="day-nav__link">Previous: #3</a>
