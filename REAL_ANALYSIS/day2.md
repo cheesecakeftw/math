@@ -5,9 +5,9 @@ description: A brief guide to Fun Higher Math
 ---
 # Day 2
 
-## Heine Borel Theorem
+## [Heine Borel Theorem](https://en.wikipedia.org/wiki/Heine%E2%80%93Borel_theorem)
 
-Definition: A set $$ X \subseteq \mathbb{C} $$ is compact if and only if it is closed and bounded. It can also be called compact when every open cover of $$\displaystyle X$$ has a finite subcover.
+Definition: A set $$ X \subseteq \mathbb{R} $$ is compact if and only if it is closed and bounded. It can also be called compact when every open cover of $$\displaystyle X$$ has a finite subcover.
 
 Intuitively it is easy to see that each function will have a maximum in a closed interval. But how can we prove it? Firstly, we must prove the Heine Borel Theorem. We can prove this theorem by dividing the square into 4 subsquares and then attempt to show that at least one of the four subsquares must not be covered by any finite subcover. Repeating this process leads to a sequence of smaller squares whose intersection is approaching a single point, which ends up lying entirely inside some open set from the cover, giving a contradiction and proving the existence of a finite subcover. The converse of this theorem also holds true and is a fairly straightforward proof using construction.
 

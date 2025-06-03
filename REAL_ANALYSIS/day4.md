@@ -5,7 +5,7 @@ description: A brief guide to Fun Higher Math
 ---
 # Day 4
 
-## Derivative
+## [Derivative](https://en.wikipedia.org/wiki/Derivative)
 
 Definition: We say that a function $$f: R \longrightarrow R$$ is differentiable at $$x_0$$ if $$\lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$ exists. 
 

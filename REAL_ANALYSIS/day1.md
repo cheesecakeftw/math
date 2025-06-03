@@ -5,7 +5,7 @@ description: A brief guide to Fun Higher Math
 ---
 # Day 1
 
-## Cauchy Sequences
+## [Cauchy Sequences](https://en.wikipedia.org/wiki/Cauchy_sequence)
 
 $$\forall \varepsilon > 0,\ \exists N \in \mathbb{N}, \,\ \forall m,n > N,\left| x_m - x_n \right|<\varepsilon$$
 

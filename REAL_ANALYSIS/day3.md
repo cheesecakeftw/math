@@ -5,7 +5,7 @@ description: A brief guide to Fun Higher Math
 ---
 # Day 3
 
-## Limits in functions and sequences
+## [Limits in functions and sequences](https://en.wikipedia.org/wiki/Limit_of_a_function)
 
 Definition: Let $$f(x)$$ be a function of real numbers. We say that $$L$$ is the limit of the sequence if, for any $$\varepsilon > 0$$ and $$\delta>0$$, there is some $$\lvert x - c\rvert < \delta$$, then $$\lvert f(x) - L\rvert < \varepsilon$$. When this happens, we write $$\lim_{x \to c} f(x)=L$$. 
 
