@@ -11,6 +11,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 ## Days: 
 
 ### [1](./REAL_ANALYSIS/day1.html) [2](./REAL_ANALYSIS/day2.html) [3](./REAL_ANALYSIS/day3.html) [4](./REAL_ANALYSIS/day4.html) [5](./REAL_ANALYSIS/day5.html) [6](./REAL_ANALYSIS/day6.html) [7](./REAL_ANALYSIS/day7.html)
+### [8](./COMPLEX_ANALYSIS/day8.html)
 
 ## Real Analysis (Days 1-7)
 
@@ -44,4 +45,11 @@ $$\exists c \in (a,b) \ \text{such that} \ f'(c) = \frac{f(b)-f(a)}{b-a}$$
 
 $$(F \subset R(X),\ \text{bounded and equicontinuous}) \implies \exists \{f_{n_k}\} \to f \text{ uniformly}.$$
 
+## Complex Analysis (Days 8-14)
 
+### [Day 8: Cauchy-Riemann Equations](./COMPLEX_ANALYSIS/day8.html)
+
+$$
+\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \\
+\frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}.
+$$
