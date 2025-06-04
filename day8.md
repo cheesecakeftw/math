@@ -41,6 +41,6 @@ $$ Hence, the Cauchy-Riemann equations are satisfied, supporting our intuition, 
 
 
 <div class="day-nav-wrapper">
-  <a href="/REAL_ANALYSIS/day7.html" class="day-nav__link">Previous: #7</a>
+  <a href="./day7.html" class="day-nav__link">Previous: #7</a>
   <a href="./day9.html" class="day-nav__link">Next: #9</a>
 </div>

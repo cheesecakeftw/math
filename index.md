@@ -10,44 +10,44 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 
 ## Days: 
 
-### [1](./REAL_ANALYSIS/day1.html) [2](./REAL_ANALYSIS/day2.html) [3](./REAL_ANALYSIS/day3.html) [4](./REAL_ANALYSIS/day4.html) [5](./REAL_ANALYSIS/day5.html) [6](./REAL_ANALYSIS/day6.html) [7](./REAL_ANALYSIS/day7.html)
-### [8](./COMPLEX_ANALYSIS/day8.html)
+### [1](./day1.html) [2](./day2.html) [3](./day3.html) [4](./day4.html) [5](./day5.html) [6](./day6.html) [7](./day7.html)
+### [8](./day8.html)
 
 ## Real Analysis (Days 1-7)
 
-### [Day 1: Cauchy Sequences](./REAL_ANALYSIS/day1.html)
+### [Day 1: Cauchy Sequences](./day1.html)
 
 $$\forall \varepsilon > 0, \ \exists N \in \mathbb{N} \ \text{such that} \ \forall m,n > N, \ |x_m - x_n| < \varepsilon$$
 
-### [Day 2: Heine Borel Theorem](./REAL_ANALYSIS/day2.html)
+### [Day 2: Heine Borel Theorem](./day2.html)
 
 $$
 \text{A set } X \subseteq \mathbb{R} \text{ is compact if and only if it is closed and bounded.}
 $$
 
-### [Day 3: Limits in functions and sequences](./REAL_ANALYSIS/day3.html)
+### [Day 3: Limits in functions and sequences](./day3.html)
 
 $$\lim_{n \to \infty} f_n(x) = f(x)$$
 
-### [Day 4: Derivative](./REAL_ANALYSIS/day4.html)
+### [Day 4: Derivative](./day4.html)
 
 $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 
-### [Day 5: Uniform and Pointwise Convergence](./REAL_ANALYSIS/day5.html)
+### [Day 5: Uniform and Pointwise Convergence](./day5.html)
 
 $$\forall \varepsilon > 0, \ \exists N \ \text{such that} \ \forall n > N, \ \forall x \in U, \ \lvert f_n(x) - f(x) \rvert < \varepsilon$$
 
-### [Day 6: Mean Value Theorem](./REAL_ANALYSIS/day6.html)
+### [Day 6: Mean Value Theorem](./day6.html)
 
 $$\exists c \in (a,b) \ \text{such that} \ f'(c) = \frac{f(b)-f(a)}{b-a}$$
 
-### [Day 7: Arzelà–Ascoli theorem](./REAL_ANALYSIS/day7.html)
+### [Day 7: Arzelà–Ascoli theorem](./day7.html)
 
 $$(F \subset R(X),\ \text{bounded and equicontinuous}) \implies \exists \{f_{n_k}\} \to f \text{ uniformly}.$$
 
 ## Complex Analysis (Days 8-14)
 
-### [Day 8: Cauchy-Riemann Equations](./COMPLEX_ANALYSIS/day8.html)
+### [Day 8: Cauchy-Riemann Equations](./day8.html)
 
 $$
 \frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \\

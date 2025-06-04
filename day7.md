@@ -18,5 +18,5 @@ The best way to visualize this theorem is to try out an example. On $$[0, \pi]$$
 
 <div class="day-nav-wrapper">
   <a href="./day6.html" class="day-nav__link">Previous: #6</a>
-  <a href="/COMPLEX_ANALYSIS//day8.html" class="day-nav__link">Next: #8</a>
+  <a href="./day8.html" class="day-nav__link">Next: #8</a>
 </div>
