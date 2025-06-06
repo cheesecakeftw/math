@@ -4,14 +4,14 @@ title: Math Every Day
 description: A brief guide to Fun Higher Math
 ---
 
-Hi! This page will cover one theorem or mathematical idea every day. We will be addressing subjects from game theory all the way through analysis and number theory. Each entry offers a brief overview of the idea and, where relevant, goes over a problem or application.
+Hi! This is the website for Math Every Day. This page will cover one theorem or mathematical idea every day. We will be addressing subjects from game theory all the way through analysis and number theory. Each entry offers a brief overview of the idea and, where relevant, goes over a problem or application.
 
-This guide is NOT a comprehensive reference and is meant only as a quick and fun introduction. Click the topics that you want to read about!
+This guide is NOT a comprehensive reference and is meant only as a quick and fun introduction. **Click the day or topic that you want to read about!**
 
 ## Days: 
 
 ### [1](./day1.html) [2](./day2.html) [3](./day3.html) [4](./day4.html) [5](./day5.html) [6](./day6.html) [7](./day7.html)
-### [8](./day8.html)
+### [8](./day8.html) [9](./day9.html)
 
 ## Real Analysis (Days 1-7)
 
@@ -52,4 +52,10 @@ $$(F \subset R(X),\ \text{bounded and equicontinuous}) \implies \exists \{f_{n_k
 $$
 \frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \\
 \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}.
+$$
+
+### [Day 9: Liouville's Theorem](./day9.html)
+
+$$
+\text{A bounded entire function } f : \mathbb{C} \to \mathbb{C} \text{ is constant.}
 $$
