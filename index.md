@@ -11,7 +11,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 ## Days: 
 
 ### [1](./day1.html) [2](./day2.html) [3](./day3.html) [4](./day4.html) [5](./day5.html) [6](./day6.html) [7](./day7.html)
-### [8](./day8.html) [9](./day9.html)
+### [8](./day8.html) [9](./day9.html) [10](./day10.html)
 
 ## Real Analysis (Days 1-7)
 
@@ -58,4 +58,11 @@ $$
 
 $$
 \text{A bounded entire function } f : \mathbb{C} \to \mathbb{C} \text{ is constant.}
+$$
+
+### [Day 10: Taylor Series](./day10.html)
+
+$$
+f(z) = \sum_{n=0}^{\infty}
+a_n(z - z_0)^n, \,\, \,\ a_n=\frac{f^{(n)}(z_0)}{n!}
 $$
