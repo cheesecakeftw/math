@@ -11,7 +11,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 ## Days: 
 
 ### [1](./day1.html) [2](./day2.html) [3](./day3.html) [4](./day4.html) [5](./day5.html) [6](./day6.html) [7](./day7.html)
-### [8](./day8.html) [9](./day9.html) [10](./day10.html)
+### [8](./day8.html) [9](./day9.html) [10](./day10.html) [11](./day11.html)
 
 ## Real Analysis (Days 1-7)
 
@@ -65,4 +65,10 @@ $$
 $$
 f(z) = \sum_{n=0}^{\infty}
 a_n(z - z_0)^n, \,\, \,\ a_n=\frac{f^{(n)}(z_0)}{n!}
+$$
+
+### [Day 11: Singularities](./day11.html)
+
+$$
+\varepsilon > 0,\ B_\varepsilon(z_0) \setminus \{z_0\} \subseteq U \implies z_0 \text{ is an isolated singularity.}
 $$
