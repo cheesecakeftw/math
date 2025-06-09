@@ -77,6 +77,6 @@ $$
 
 $$\int_\Gamma f(z)\,dz = \int_a^b f\bigl(\gamma(t)\bigr)\,\gamma'(t)\,dt$$
 
-### [Day 12: The Cauchy Integral Theorem](./day13.html)
+### [Day 13: The Cauchy Integral Theorem](./day13.html)
 
 $$\int_\Gamma f(z)\,dz =0$$
