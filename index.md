@@ -11,7 +11,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 ## Days: 
 
 ### [1](./day1.html) [2](./day2.html) [3](./day3.html) [4](./day4.html) [5](./day5.html) [6](./day6.html) [7](./day7.html)
-### [8](./day8.html) [9](./day9.html) [10](./day10.html) [11](./day11.html) [12](./day12.html)
+### [8](./day8.html) [9](./day9.html) [10](./day10.html) [11](./day11.html) [12](./day12.html) [13](./day13.html)
 
 ## Real Analysis (Days 1-7)
 
@@ -77,3 +77,6 @@ $$
 
 $$\int_\Gamma f(z)\,dz = \int_a^b f\bigl(\gamma(t)\bigr)\,\gamma'(t)\,dt$$
 
+### [Day 12: The Cauchy Integral Theorem](./day13.html)
+
+$$\int_\Gamma f(z)\,dz =0$$
