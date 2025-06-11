@@ -12,7 +12,7 @@ $$
 \int_{\Gamma} f(z)\, dz = 0.
 $$
 
-Today we properly go over one of the most celebrated complex analysis theorems, after foreshadowing it yesterday. One important thing to remember is that this shouldn't be confused with the Cauchy Integral Formula, which we go over later. The real power of complex analysis comes from results such as the Cuachy Integral Formula and the residue theorem, which are built upon this theorem. Regardless, we can still compute some integrals that would be really tough without complex analysis using this theorem. How would you evaluate $\int_{-\infty}^{\infty} \frac{1-\cos x}{x^2}dx = \pi $ without complex analysis? Give it a try, but with complex analysis its a standard answer. We won't be going over the entire proof because its too long for this blog, but it isn't too hard and makes use of the Cauchy Integral Theorem and the ML Inequality, tools which we have gone over.
+Today we properly go over one of the most celebrated complex analysis theorems, after foreshadowing it yesterday. One important thing to remember is that this shouldn't be confused with the Cauchy Integral Formula, which we go over later. The real power of complex analysis comes from results such as the Cauchy Integral Formula and the residue theorem, which are built upon this theorem. Regardless, we can still compute some integrals that would be really tough without complex analysis using this theorem. How would you evaluate $\int_{-\infty}^{\infty} \frac{1-\cos x}{x^2}dx = \pi $ without complex analysis? Give it a try, but with complex analysis its a standard answer. We won't be going over the entire proof because its too long for this blog, but it isn't too hard and makes use of the Cauchy Integral Theorem and the ML Inequality, tools which we have gone over.
 
 Before we evaluate that integral, lets prove the Cauchy Integral theorem with only the additional hypothesis that $$f'$$ is continuous on $\Gamma$ and its interior. It turns out that the proof is quite simple and follows from a main theorem in multivariable calculus called [Green's Theorem](https://en.wikipedia.org/wiki/Green%27s_theorem). Green’s Theorem states that for a positively oriented, closed curve $\Gamma$ enclosing a region $D$,$$ \int_{\Gamma} (P\, dx + Q\, dy) = \iint_D \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) dx\,dy
 $$. Moving onto the proof, firstly we write $$f(z)=u(x,y)+iv(x,y)$$ and $$dz=dx+idy$$, from the definition of a complex function. Then, $$
@@ -27,4 +27,5 @@ One important consequence of the Cauchy Integral Theorem is that the integral of
 
 <div class="day-nav-wrapper">
   <a href="./day12.html" class="day-nav__link">Previous: #12</a>
+  <a href="./day14.html" class="day-nav__link">Next: #14</a>
 </div>
