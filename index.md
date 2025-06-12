@@ -9,12 +9,16 @@ Hi! This is the website for Math Every Day. This page will cover one theorem or 
 This guide is NOT a comprehensive reference and is meant only as a quick and fun introduction. **Click the day or topic that you want to read about!**
 
 ## Days: 
-
 ### [1](./day1.html) [2](./day2.html) [3](./day3.html) [4](./day4.html) [5](./day5.html) [6](./day6.html) [7](./day7.html)
 ### [8](./day8.html) [9](./day9.html) [10](./day10.html) [11](./day11.html) [12](./day12.html) [13](./day13.html) [14](./day14.html)
 ### [15](./day15.html) [16](./day16.html)
 
-## Real Analysis (Days 1-7)
+
+
+
+1 - 7: Real Analysis
+
+8 - 21: Complex Analysis
 
 ### [Day 1: Cauchy Sequences](./day1.html)
 
@@ -45,8 +49,6 @@ $$\exists c \in (a,b) \ \text{such that} \ f'(c) = \frac{f(b)-f(a)}{b-a}$$
 ### [Day 7: Arzelà–Ascoli theorem](./day7.html)
 
 $$(F \subset R(X),\ \text{bounded and equicontinuous}) \implies \exists \{f_{n_k}\} \to f \text{ uniformly}.$$
-
-## Complex Analysis (Days 8-21)
 
 ### [Day 8: Cauchy-Riemann Equations](./day8.html)
 
