@@ -12,7 +12,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 
 ### [1](./day1.html) [2](./day2.html) [3](./day3.html) [4](./day4.html) [5](./day5.html) [6](./day6.html) [7](./day7.html)
 ### [8](./day8.html) [9](./day9.html) [10](./day10.html) [11](./day11.html) [12](./day12.html) [13](./day13.html) [14](./day14.html)
-### [15](./day15.html)
+### [15](./day15.html) [16](./day16.html)
 
 ## Real Analysis (Days 1-7)
 
@@ -89,3 +89,7 @@ $$f(z_0) = \frac{1}{2\pi i} \int_{\Gamma} \frac{f(z)}{z - z_0}\, dz$$
 ### [Day 15: Maximum Modulus Principle](./day15.html)
 
 $$ \text{Holomorphic } f \text{ on connected open } U,\ \lvert f(z_0) \rvert \geq \lvert f(z) \rvert\ \forall z \in U \Rightarrow f \text{ constant.}$$ 
+
+### [Day 16: The Residue Theorem](./day16.html)
+
+$$ \int_{\Gamma} f(z)\,dz = 2\pi i \sum_{k=1}^{n} \operatorname{Res}(f; z_k)$$ 
