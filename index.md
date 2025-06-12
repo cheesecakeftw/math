@@ -12,6 +12,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 
 ### [1](./day1.html) [2](./day2.html) [3](./day3.html) [4](./day4.html) [5](./day5.html) [6](./day6.html) [7](./day7.html)
 ### [8](./day8.html) [9](./day9.html) [10](./day10.html) [11](./day11.html) [12](./day12.html) [13](./day13.html) [14](./day14.html)
+### [15](./day15.html)
 
 ## Real Analysis (Days 1-7)
 
@@ -45,7 +46,7 @@ $$\exists c \in (a,b) \ \text{such that} \ f'(c) = \frac{f(b)-f(a)}{b-a}$$
 
 $$(F \subset R(X),\ \text{bounded and equicontinuous}) \implies \exists \{f_{n_k}\} \to f \text{ uniformly}.$$
 
-## Complex Analysis (Days 8-14)
+## Complex Analysis (Days 8-21)
 
 ### [Day 8: Cauchy-Riemann Equations](./day8.html)
 
@@ -84,3 +85,7 @@ $$\int_\Gamma f(z)\,dz =0$$
 ### [Day 14: Cauchy Integral Formula](./day14.html)
 
 $$f(z_0) = \frac{1}{2\pi i} \int_{\Gamma} \frac{f(z)}{z - z_0}\, dz$$
+
+### [Day 15: Maximum Modulus Principle](./day15.html)
+
+$$ \text{Holomorphic } f \text{ on connected open } U,\ \lvert f(z_0) \rvert \geq \lvert f(z) \rvert\ \forall z \in U \Rightarrow f \text{ constant.}$$ 
