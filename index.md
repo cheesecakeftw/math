@@ -11,7 +11,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 ## Days: 
 ### [1](./day1.html) [2](./day2.html) [3](./day3.html) [4](./day4.html) [5](./day5.html) [6](./day6.html) [7](./day7.html)
 ### [8](./day8.html) [9](./day9.html) [10](./day10.html) [11](./day11.html) [12](./day12.html) [13](./day13.html) [14](./day14.html)
-### [15](./day15.html) [16](./day16.html) [17](./day17.html)
+### [15](./day15.html) [16](./day16.html) [17](./day17.html)  [18](./day18.html)
 
 
 
@@ -100,4 +100,10 @@ $$ \int_{\Gamma} f(z)\,dz = 2\pi i \sum_{k=1}^{n} \operatorname{Res}(f; z_k)$$
 
 $$
 f : U \to \mathbb{C}, \quad g : V \to \mathbb{C}, \quad U \subset V \subset \mathbb{C}, \quad f = g|_U \Rightarrow g \text{ is analytic continuation of } f
+$$
+
+### [Day 18: Branch Points](./day18.html)
+
+$$
+z_0 \in \mathbb{C} \text{ is a branch point } \Leftrightarrow f(z_0 + \varepsilon e^{2\pi i t}) \text{ not single-valued on } t \in [0,1]
 $$
