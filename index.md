@@ -11,7 +11,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 ## Days: 
 ### [1](./day1.html) [2](./day2.html) [3](./day3.html) [4](./day4.html) [5](./day5.html) [6](./day6.html) [7](./day7.html)
 ### [8](./day8.html) [9](./day9.html) [10](./day10.html) [11](./day11.html) [12](./day12.html) [13](./day13.html) [14](./day14.html)
-### [15](./day15.html) [16](./day16.html) [17](./day17.html)  [18](./day18.html) [19](./day19.html)
+### [15](./day15.html) [16](./day16.html) [17](./day17.html)  [18](./day18.html) [19](./day19.html) [20](./day20.html)
 
 
 
@@ -111,3 +111,7 @@ $$
 ### [Day 19: Branch Cuts](./day19.html)
 
 $$\text{A branch cut is a curve removed to make a multivalued function single-valued on the remaining domain.}$$
+
+### [Day 20: Infinite Products](./day20.html)
+
+$$\prod_{n=1}^{\infty} a_n=a_1a_2a_3\ldots$$
