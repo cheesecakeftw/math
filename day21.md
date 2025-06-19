@@ -1,0 +1,24 @@
+---
+layout: default
+title: Math Every Day
+description: A brief guide to Fun Higher Math
+---
+# Day 21
+
+## [Hadamard Factorization Theorem](https://en.wikipedia.org/wiki/Hadamard_factorization_theorem)
+
+Definition: Let $$f$$ be an entire function of finite order $$\rho$$, and suppose it has infinitely many zeros, given by the sequence $$0,\ldots,0,a_1,a_2,\ldots$$, where there are $$m$$ zeros, $$a_1 \neq 0$$, and $$\lvert a_n \rvert \leq \lvert a_{n+1} \rvert$$ for all $$n$$. Let $$\kappa \leq \lfloor \rho \rfloor$$ be the largest nonnegative integer $$k$$ so that the series $$\sum_{n=1}^\infty \frac{1}{\lvert a_n \rvert^k}$$ diverges. Then $$f$$ can be written as an infinite product $$e^{g(z)} z^m \prod_{n=1}^\infty \left(1 - \frac{z}{a_n}\right) e_{p_\kappa}\left(\frac{z}{a_n}\right),$$ where $$g$$ is a polynomial of degree at most $$\lfloor \rho \rfloor$$.
+
+Now that we know that we can write an entire function with zeroes as described in the Weierstrass Product theorem in the form $$f(z)e^{g(z)}$$ with some entire functions $$f$$ and $g$, today we address how to decide which $g$ to use? Lets discuss growth rates before that. Firstly we define the [order](https://en.wikipedia.org/wiki/Entire_function) of an entire function $f$ to be $$\inf \{ a : \lvert f(z) \rvert \leq e^{\lvert z \rvert^a} \}$$ for all sufficiently large $\lvert z \rvert$. We can also write the order as $$\limsup_{\lvert z \rvert \to \infty} \frac{\log \log \lvert f(z) \rvert}{\log \lvert z \rvert}$$. For example, the order of $$e^{e^z}$$ is infinite and the order of $e^{z^2}$ is 2 whereas the order of a polynomial is 0 since they grow more slowly than exponential functions. Another case is the order of $\sin z$ which is 1 because $$\lvert \sin z \rvert \leq \frac{1}{2} \lvert e^{iz} \rvert + \frac{1}{2} \lvert e^{-iz} \rvert \leq e^{\lvert z \rvert}$$.
+
+We won't go into the proof of this theorem right now (because we haven't discussed everything we need) but we will try to see why this is believable. The exponential factors in the product are chosen so that the product converges and the order of $e^g(z)$ is $$\deg g(z) \leq \rho$$, so the order of the product is the maximum of the degree of $g$ and
+the order of the infinite product. Understanding the order of the infinite product is much more complicated. So we delegate that for later and instead try justifying [Euler's product formula](https://www.ams.org/bookstore/pspdf/gsm-97-prev.pdf) for $\frac{\sin z}{z}$ which has order 1 because dividing doesn't change it. It's zeroes are multiples of $\pi$ defined by $k \pi$ with $k \in \mathbb{Q}$ which are nonzero integers. The sum of the reciprocals of these integers diverges (the harmonic series), whereas the sum of the squares converges. Hence $\kappa =1$. Then we write $$\frac{\sin z}{z} = e^{g(z)} \prod_{n=1}^\infty \left(1 - \frac{z}{n\pi}\right) e^{\frac{z}{n\pi}} \left(1 + \frac{z}{n\pi}\right)e^{\frac{z}{-n\pi}}$$. Then $$\frac{\sin z}{z} =$$ $$e^{g(z)} \prod_{n=1}^\infty \left(1 - \frac{z}{n\pi}\right) \left(1 + \frac{z}{n\pi}\right)$$ = $$e^{g(z)} \prod_{n=1}^\infty z^2 \left(1 - \frac{1}{n^2 \pi^2}\right)$$ where $\deg(g)\leq 1$, i.e. $g(z)=a+bz$ for some complex numbers $a,b$. Note that $\frac{\sin z}{z}$ is an [even function](https://en.wikipedia.org/wiki/Even_and_odd_functions) and so is each factor and product. This means that the exponential factor is also even and thus $b=0$. We find $a$ by plugging in $z=0$ and because the left is 1, $a=0$. Hence, $$\frac{\sin z}{z} = \prod_{n=1}^\infty \left(1 - \frac{z^2}{n^2 \pi^2}\right)$$!
+
+Now let us discuss some interesting corollaries of this theorem! The Hadamard Factorization Theorem only works when $f$ is entire and has infinitely many zeroes. If $f$ has finitely many zeroes,  there might be some other complex number $w \neq 0$ so that $f(z) = w$ has infinitely many solutions. Additionally, the theorem doesn't work when $f$ has infinite order. We can write $f$ as $e^g(z)$ times the product involving zeros by the Weierstrass Theorem, but can't say much about what $g$ looks like. Finally, we can describe the order of the product $$\prod_{n=1}^\infty \left(1 - \frac{z}{a_n}\right) e_{p_n}\left(\frac{z}{a_n}\right)$$ directly. For a real number $\alpha \geq 0$ consider $$\sum_{n=1}^\infty \frac{1}{\lvert a_n \rvert^\alpha}$$. This series might converge or diverge for some $\alpha$. if it converges for $\alpha$ and $\beta > \alpha$, then it converges for $\beta$. Define $\tau$ as the [infimum](https://en.wikipedia.org/wiki/Infimum_and_supremum) of $\alpha$ for which it converges. Then we call $\tau$ as the $$\text{exponent of convergence}$$. There is also an inverse of the Hadamard Factorization Theorem. Try to figure it out!
+
+
+
+<div class="day-nav-wrapper">
+  <a href="./day20.html" class="day-nav__link">Previous: #20</a>
+  <a href="./day22.html" class="day-nav__link">Next: #22</a>
+</div>
