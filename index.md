@@ -12,7 +12,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 ### [1](./day1.html) [2](./day2.html) [3](./day3.html) [4](./day4.html) [5](./day5.html) [6](./day6.html) [7](./day7.html)
 ### [8](./day8.html) [9](./day9.html) [10](./day10.html) [11](./day11.html) [12](./day12.html) [13](./day13.html) [14](./day14.html)
 ### [15](./day15.html) [16](./day16.html) [17](./day17.html)  [18](./day18.html) [19](./day19.html) [20](./day20.html) [21](./day21.html)
-### [22](./day22.html) 
+### [22](./day22.html) [23](./day23.html) 
 
 
 
@@ -126,4 +126,8 @@ $$f(z) = e^{g(z)} z^m \prod_{n=1}^\infty \left(1 - \frac{z}{a_n}\right) e_{p_\ka
 ### [Day 22: Commutative Property](./day22.html)
 
 $$x \,\ast \, y = y \,\ast\, x \, \quad \forall x,y \in S$$ 
+
+### [Day 23: Associative Property](./day23.html)
+
+$$(x \ast y) \ast z = x \ast (y \ast z) \quad \forall x, y, z \in S$$
 
