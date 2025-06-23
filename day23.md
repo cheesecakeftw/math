@@ -15,11 +15,7 @@ Now that we know that multiplication is associative, what about addition or comp
 
 We won't go into the proof because this fact is again quite rigorous despite this being an intuitive property. Similar to the commutative property subtraction and division aren't associative either, but exponentiation which is commutative isn't associative. We can try a simple case to see it: $$2^{(1^2)} \ne (2^1)^2$$. One of the most important results of this property is that we can omit parenthesis, which makes the expression easier to use.
 
-Note that in general associative operations aren't commutative. But there are **exceptions**: every continuous, associative operator on an interval of the real number line that is injective and strictly increasing in each argument is commutative. A really cool application of this property is the [telescoping series](https://en.wikipedia.org/wiki/Telescoping_series), where we use addition's associativity for cancelling terms in the infinite series!
-
-
-
-
+Note that in general associative operations aren't commutative. But there are exceptions: every continuous, associative operator on an interval of the real number line that is injective and strictly increasing in each argument is commutative. A really cool application of this property is the [telescoping series](https://en.wikipedia.org/wiki/Telescoping_series), where we use addition's associativity for cancelling terms in the infinite series!
 
 
 
