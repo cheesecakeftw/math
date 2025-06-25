@@ -19,10 +19,6 @@ Now we define an important term that we will use quite often. A set that demonst
 
 
 
-
-
-
-
 <div class="day-nav-wrapper">
   <a href="./day23.html" class="day-nav__link">Previous: #23</a>
   <a href="./day25.html" class="day-nav__link">Next: #25</a>
