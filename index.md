@@ -12,7 +12,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 ### [1](./day1.html) [2](./day2.html) [3](./day3.html) [4](./day4.html) [5](./day5.html) [6](./day6.html) [7](./day7.html)
 ### [8](./day8.html) [9](./day9.html) [10](./day10.html) [11](./day11.html) [12](./day12.html) [13](./day13.html) [14](./day14.html)
 ### [15](./day15.html) [16](./day16.html) [17](./day17.html)  [18](./day18.html) [19](./day19.html) [20](./day20.html) [21](./day21.html)
-### [22](./day22.html) [23](./day23.html) [24](./day24.html) [25](./day25.html) [26](./day26.html) [27](./day27.html)
+### [22](./day22.html) [23](./day23.html) [24](./day24.html) [25](./day25.html) [26](./day26.html) [27](./day27.html) [28](./day28.html)
 
 
 
@@ -22,6 +22,8 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 8 - 21: Complex Analysis
 
 22 - 28: Ring Theory
+
+29 - 42: Number Theory
 
 ### [Day 1: Cauchy Sequences](./day1.html)
 
@@ -125,28 +127,34 @@ $$f(z) = e^{g(z)} z^m \prod_{n=1}^\infty \left(1 - \frac{z}{a_n}\right) e_{p_\ka
 
 ### [Day 22: Commutative Property](./day22.html)
 
-$$x \,\ast \, y = y \,\ast\, x \, \quad \forall x,y \in S$$ 
+$$x \,\ast \, y = y \,\ast\, x \,, \quad \forall x,y \in S$$ 
 
 ### [Day 23: Associative Property](./day23.html)
 
-$$(x \ast y) \ast z = x \ast (y \ast z) \quad \forall x, y, z \in S$$
+$$(x \ast y) \ast z = x \ast (y \ast z), \quad \forall x, y, z \in S$$
 
 ### [Day 24: Identity Element](./day24.html)
 
-$$e \ast s=s, \quad \forall s \in S$$ 
+$$s \ast 1=s, \quad \forall s \in S$$ 
 
 ### [Day 25: Inverse Element](./day25.html)
 
-$$s \ast s^{-1} = e, \quad \forall s \in S$$
+$$s \ast s^{-1} = 1, \quad \forall s \in S$$
 
 ### [Day 26: Distributive Property](./day26.html)
 
-$$x\ast (y+z)=x\ast y + y\ast z$$
+$$x\ast (y+z)=x\ast y + y\ast z,  \quad \forall x,y,z \in S$$
 
 ### [Day 27: Euclidean Domain](./day27.html)
 
 $$
 \forall\,a,b\in R\;,\exists\,q,r\in R\;\text{ s.t. }\;a=bq+r \text{ where }f(r)<f(b).
+$$
+
+### [Day 28: Ideal](./day28.html)
+
+$$
+I\subseteq R\ \text{is an ideal} \iff \forall\,a,b\in I,\ r\in R:\ a+b\in I,\ ra\in I.
 $$
 
 
