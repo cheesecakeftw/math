@@ -13,7 +13,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 ### [8](./day8.html) [9](./day9.html) [10](./day10.html) [11](./day11.html) [12](./day12.html) [13](./day13.html) [14](./day14.html)
 ### [15](./day15.html) [16](./day16.html) [17](./day17.html)  [18](./day18.html) [19](./day19.html) [20](./day20.html) [21](./day21.html)
 ### [22](./day22.html) [23](./day23.html) [24](./day24.html) [25](./day25.html) [26](./day26.html) [27](./day27.html) [28](./day28.html)
-### [29](./day29.html) [30](./day30.html) [31](./day31.html)
+### [29](./day29.html) [30](./day30.html) [31](./day31.html) [32](./day32.html)
 
 
 
@@ -171,4 +171,10 @@ $$
 
 $$
 a,b\in\mathbb{Z},\ b\ne0\ \Rightarrow\ \exists!\,q,r\in\mathbb{Z}\text{ such that } a=bq+r,\ 0\le r<|b|.
+$$
+
+### [Day 32: Bezout's Identity](./day32.html)
+
+$$
+a,b\in\mathbb{Z},\ \gcd(a,b)=d\ \Rightarrow\ \exists\,x,y\in\mathbb{Z} \text{ such that } ax+by=d.
 $$
