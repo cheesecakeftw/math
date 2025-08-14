@@ -159,4 +159,4 @@ $$
 
 ### [Day 29: Modular Arithmetic](./day29.html)
 
-$$m\mid a-b \implies a \equiv b\pmod{m}$$
+$$m\mid a-b \iff a \equiv b\pmod{m}$$

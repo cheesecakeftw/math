@@ -7,7 +7,7 @@ description: A brief guide to Fun Higher Math
 
 ## [Modular Arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic)
 
-Definition: For $a,b,m\in \mathbb{Z}, \quad$ $m\mid a-b \implies a \equiv b\pmod{m}$
+Definition: For $a,b,m\in \mathbb{Z}, \quad$ $m\mid a-b \iff a \equiv b\pmod{m}$
 
 Most of us are familiar with modular arithmetic whether you realize it or not. Notice that 1:00 and 13:00 are denoted as 1:00 on a 12-hour clock. This is because $13\equiv 1 \pmod{12}$. this is read as 13 is congruent to 1 modulo 12 which is the same as 12 divides 13-1. 
 
