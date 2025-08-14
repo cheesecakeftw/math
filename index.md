@@ -13,7 +13,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 ### [8](./day8.html) [9](./day9.html) [10](./day10.html) [11](./day11.html) [12](./day12.html) [13](./day13.html) [14](./day14.html)
 ### [15](./day15.html) [16](./day16.html) [17](./day17.html)  [18](./day18.html) [19](./day19.html) [20](./day20.html) [21](./day21.html)
 ### [22](./day22.html) [23](./day23.html) [24](./day24.html) [25](./day25.html) [26](./day26.html) [27](./day27.html) [28](./day28.html)
-### [29](./day29.html)
+### [29](./day29.html) [30](./day30.html)
 
 
 
@@ -160,3 +160,9 @@ $$
 ### [Day 29: Modular Arithmetic](./day29.html)
 
 $$m\mid a-b \iff a \equiv b\pmod{m}$$
+
+### [Day 30: Well Ordering Principle](./day30.html)
+
+$$
+S \subseteq \mathbb{N},\ S \neq \varnothing \ \Rightarrow\ \exists\,m \in S, \text{such that $m$ is the least element in $S$}
+$$
