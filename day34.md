@@ -1,0 +1,26 @@
+---
+layout: default
+title: Math Every Day
+description: A brief guide to Fun Higher Math
+---
+# Day 30
+
+## [Unit group](https://en.wikipedia.org/wiki/Unit_(ring_theory))
+
+Before we discuss the group we address what units are. For any general ring $R$ and $u\in R$ if there exists $v\in R$ such that $uv=vu=1$, both $u$ and $v$ are units. For example, the units in $\mathbb{Z}$ are only $1,-1$. Now we define the unit group (denoted by $U(n)$ or $U_n$) for any positive integer $n$ as a group where every $u\in U_n$ is a unit in $\mathbb{Z}_n$. 
+
+Note that an element $a\in U_n$ iff $\gcd(a,n)=1$. Let us now prove that. Firstly, we prove the reverse direction. Since, $\gcd(a,n)=1$, by Bezout's there exists $x,y\in \mathbb{Z}$ such that $ax+ny=1$. Then, $ax-1=-ny$ which implies $n\mid ax-1\implies ax\equiv 1 \pmod{n}$. Hence, $a$ and $x$ are units in $\mathbb{Z}_n$ implying that they are in $U_n$. This means that there are $\phi(n)$ elements in $U_n$ because $\phi(n)$ is the [euler totient function](https://en.wikipedia.org/wiki/Euler%27s_totient_function) which gives us the number of coprime integers less than $n$. 
+
+Now we prove the other direction. If $a \in U_n$, there exists $b\in U_n$ such that $ab\equiv 1 \pmod{n}$. Rewriting, we get $ab-nk=1$ for some $k\in \mathbb{Z}$. Let $d =\gcd(a, n)$. Since $d\mid a$ and $d \mid n$, we have $d\mid ab$ and $d \mid nk$. Hence, $d \mid ab - nk= 1$. Therefore $d = 1$ which implies $\gcd(a, n) = 1$, completing the proof.
+
+
+
+Consider $U_7=${$1,2,3,4,5,6$}. Now take $a=3,5$ and compute $a^k\pmod{n}$ where $0\leq k<n$. We call elements whose powers are able to generate the entire group [primitive roots](https://en.wikipedia.org/wiki/Primitive_root_modulo_n). Now try $U_12$. It turns out that no element in the group is able to generate the entire group. While we wont prove it yet (because these proofs are beyond the scope of these notes) note that each group which has primitive roots has precisely $\phi(\phi(n))$ primitive roots. Additionally, each group $U_n$ only has primitive roots if $n$ is either $1,2,4$, a prime power $p^k$ or $2$ times a prime power $2p^k$. Finally, we define one last term: the [order](https://en.wikipedia.org/wiki/Order_(group_theory)) of an element is the smallest positive integer $k$ such that $a^k=1$ in $\mathbb{Z}_n$. We will use this group to prove a really important theorem: [Fermat's little theorem](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem)!
+
+
+<div class="day-nav-wrapper">
+  <a href="./day33.html" class="day-nav__link">Previous: #33</a>
+  <a href="./day35.html" class="day-nav__link">Next: #35</a>
+</div>
+
+
