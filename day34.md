@@ -3,7 +3,7 @@ layout: default
 title: Math Every Day
 description: A brief guide to Fun Higher Math
 ---
-# Day 30
+# Day 34
 
 ## [Unit group](https://en.wikipedia.org/wiki/Unit_(ring_theory))
 
