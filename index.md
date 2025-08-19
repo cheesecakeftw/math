@@ -23,7 +23,9 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 
 22 - 28: Ring Theory
 
-29 - 42: Number Theory
+29 - 36: Number Theory
+
+
 
 ### [Day 1: Cauchy Sequences](./day1.html)
 
