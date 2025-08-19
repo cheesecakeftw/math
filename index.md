@@ -14,7 +14,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 ### [15](./day15.html) [16](./day16.html) [17](./day17.html)  [18](./day18.html) [19](./day19.html) [20](./day20.html) [21](./day21.html)
 ### [22](./day22.html) [23](./day23.html) [24](./day24.html) [25](./day25.html) [26](./day26.html) [27](./day27.html) [28](./day28.html)
 ### [29](./day29.html) [30](./day30.html) [31](./day31.html) [32](./day32.html) [33](./day33.html) [34](./day34.html) [35](./day35.html)
-### [36](./day36.html)
+### [36](./day36.html) [37](./day37.html)
 
 
 1 - 7: Real Analysis
@@ -23,7 +23,8 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 
 22 - 28: Ring Theory
 
-29 - 36: Number Theory
+29 - 40: Number Theory
+
 
 
 
@@ -205,3 +206,8 @@ $$
 x \equiv a_1\pmod{m_1}, x \equiv a_2 \pmod{m_2},\ \gcd(m_1,m_2)=1 \ \implies \text{ there exists } x \pmod{m_1m_2}.
 $$
 
+### [Day 37: Wilson's Theorem](./day37.html)
+
+$$
+p\ \text{prime} \ \iff\ (p-1)! \equiv -1 \pmod{p}.
+$$
