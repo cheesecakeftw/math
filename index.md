@@ -14,7 +14,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 ### [15](./day15.html) [16](./day16.html) [17](./day17.html)  [18](./day18.html) [19](./day19.html) [20](./day20.html) [21](./day21.html)
 ### [22](./day22.html) [23](./day23.html) [24](./day24.html) [25](./day25.html) [26](./day26.html) [27](./day27.html) [28](./day28.html)
 ### [29](./day29.html) [30](./day30.html) [31](./day31.html) [32](./day32.html) [33](./day33.html) [34](./day34.html) [35](./day35.html)
-### [36](./day36.html) [37](./day37.html)
+### [36](./day36.html) [37](./day37.html) [38](./day38.html)
 
 
 1 - 7: Real Analysis
@@ -210,4 +210,10 @@ $$
 
 $$
 p\ \text{prime} \ \iff\ (p-1)! \equiv -1 \pmod{p}.
+$$
+
+### [Day 38: Lagrange's Theorem](./day38.html)
+
+$$
+f(x)\in\mathbb{Z}_p[x],\ \deg f = n\implies\ f \text{ has at most }n \text{ roots in } \mathbb{Z}_p.
 $$
