@@ -15,6 +15,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 ### [22](./day22.html) [23](./day23.html) [24](./day24.html) [25](./day25.html) [26](./day26.html) [27](./day27.html) [28](./day28.html)
 ### [29](./day29.html) [30](./day30.html) [31](./day31.html) [32](./day32.html) [33](./day33.html) [34](./day34.html) [35](./day35.html)
 ### [36](./day36.html) [37](./day37.html) [38](./day38.html) [39](./day39.html) [40](./day40.html) [41](./day41.html) [42](./day42.html)
+### [43](./day43.html)
 
 
 1 - 7: Real Analysis
@@ -25,6 +26,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 
 29 - 42: Number Theory
 
+43 - 49: Linear Algebra
 
 
 
@@ -239,3 +241,7 @@ $$
 ### [Day 42: Freshman's Dream](./day42.html)
 
 $$(x+y)^p \equiv x^p + y^p  \text{ in } \mathbb{Z}_p, \; p \text{ prime.}$$
+
+### [Day 43: Vector Spaces](./day43.html)
+
+$$\text{Abelian group }V \text{ over field }F:\ u,v\in V,\ a\in F \implies u+v\in V,\ av\in V.$$
