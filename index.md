@@ -27,7 +27,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 
 29 - 42: Number Theory
 
-43 - 49: Linear Algebra
+43 - 48: Linear Algebra
 
 
 
