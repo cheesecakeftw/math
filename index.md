@@ -15,7 +15,8 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 ### [22](./day22.html) [23](./day23.html) [24](./day24.html) [25](./day25.html) [26](./day26.html) [27](./day27.html) [28](./day28.html)
 ### [29](./day29.html) [30](./day30.html) [31](./day31.html) [32](./day32.html) [33](./day33.html) [34](./day34.html) [35](./day35.html)
 ### [36](./day36.html) [37](./day37.html) [38](./day38.html) [39](./day39.html) [40](./day40.html) [41](./day41.html) [42](./day42.html)
-### [43](./day43.html) [44](./day44.html) [45](./day45.html) [46](./day46.html)
+### [43](./day43.html) [44](./day44.html) [45](./day45.html) [46](./day46.html) [47](./day47.html) [48](./day48.html) [49](./day49.html)
+### [50](./day50.html) [51](./day51.html)
 
 
 
@@ -28,6 +29,8 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 29 - 42: Number Theory
 
 43 - 48: Linear Algebra
+
+49 - 53: Galois Theory
 
 
 
@@ -258,3 +261,13 @@ $$\dim V = |B|,\; B \text{ is a basis of } V.$$
 ### [Day 46: Matrix ](./day46.html)
 
 $$(AB)_{i,j} = \sum_{k=1}^n a_{i,k} b_{k,j}$$
+
+### [Day 47: Dual Space](./day47.html)
+
+$$V^* = \operatorname{Hom}(V,F)$$
+
+### [Day 48: Dot Product](./day48.html)
+
+$$u\cdot v = \sum_{i=1}^n u_i v_i,\;$$
+
+
