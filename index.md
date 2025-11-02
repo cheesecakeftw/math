@@ -270,4 +270,11 @@ $$V^* = \operatorname{Hom}(V,F)$$
 
 $$u\cdot v = \sum_{i=1}^n u_i v_i,\;$$
 
+### [Day 49: Field Extension](./day49.html)
+
+$$[L:K] = \dim_K L$$
+
+
+
+
 
