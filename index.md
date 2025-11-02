@@ -16,7 +16,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 ### [29](./day29.html) [30](./day30.html) [31](./day31.html) [32](./day32.html) [33](./day33.html) [34](./day34.html) [35](./day35.html)
 ### [36](./day36.html) [37](./day37.html) [38](./day38.html) [39](./day39.html) [40](./day40.html) [41](./day41.html) [42](./day42.html)
 ### [43](./day43.html) [44](./day44.html) [45](./day45.html) [46](./day46.html) [47](./day47.html) [48](./day48.html) [49](./day49.html)
-### [50](./day50.html) [51](./day51.html)
+### [50](./day50.html) 
 
 
 
