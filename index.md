@@ -4,9 +4,9 @@ title: Math Every Day
 description: A brief guide to Fun Higher Math
 ---
 
-Hi! I am Anay Agrawal and this is the website for Math Every (Other) Day. This page will cover one theorem or mathematical idea every day. We will be addressing subjects from game theory all the way through analysis and number theory. Each entry offers a brief overview of the idea and, where relevant, goes over a problem or application.
+Hi! I am Anay Agrawal and this is the website for Math Every (Other) Day. This page will cover one theorem or mathematical idea every day. We will be addressing subjects from game theory all the way through analysis and number theory. Each entry offers a brief overview of the idea and goes over problems and applications.
 
-This guide is NOT a comprehensive reference and is meant only as a quick and fun introduction. **Click the day or topic that you want to read about!**
+This guide is NOT a comprehensive reference and is meant only as a quick and fun introduction. **Scroll down to see the topics for each day and click a day to begin!**
 
 ## Days: 
 ### [1](./day1.html) [2](./day2.html) [3](./day3.html) [4](./day4.html) [5](./day5.html) [6](./day6.html) [7](./day7.html)
