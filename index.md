@@ -36,6 +36,7 @@ This guide isn't a comprehensive reference and is meant only as a quick and fun 
   <div style="margin:0.3em 0;"> 
     <a href="./day50.html">50</a>
   </div>
+  <a href="./day50.html" style="opacity:0.6; text-decoration:none;">51 (in progress)</a>
 </div>
 
 
