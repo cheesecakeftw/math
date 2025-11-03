@@ -30,7 +30,7 @@ This guide is NOT a comprehensive reference and is meant only as a quick and fun
 
 43 - 48: Linear Algebra
 
-49 - 53: Galois Theory
+49 - 56: Galois Theory
 
 
 

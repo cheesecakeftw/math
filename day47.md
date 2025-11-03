@@ -9,7 +9,7 @@ description: A brief guide to Fun Higher Math
 
 Definition: The dual space of a vector space $$V$$ over a field $$F$$ is the set of all linear maps from $$V$$ to $$F$$. These maps are called linear functionals. The dual space is denoted by $$V^*$$.
 
-To understand what this means, let us go over an example. Take a vector in $$\mathbb{R}^2$$, say $$(3, -5)$$. This can be written as a $$2\times1$$ column matrix:
+Before we define it properly, let us go over an example. Take a vector in $$\mathbb{R}^2$$, say $$(3, -5)$$. This can be written as a $$2\times1$$ column matrix:
 $$
 \begin{bmatrix}
 3 \\
