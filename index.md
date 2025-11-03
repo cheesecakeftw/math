@@ -9,15 +9,35 @@ Hi! I am Anay Agrawal and this is the website for Math Every (Other) Day. This p
 This guide isn't a comprehensive reference and is meant only as a quick and fun introduction. **Scroll down to see the topics for each day and click a day to begin!**
 
 
-## Days: 
-### [1](./day1.html) [2](./day2.html) [3](./day3.html) [4](./day4.html) [5](./day5.html) [6](./day6.html) [7](./day7.html) 
-### [8](./day8.html) [9](./day9.html) [10](./day10.html) [11](./day11.html) [12](./day12.html) [13](./day13.html) [14](./day14.html)
-### [15](./day15.html) [16](./day16.html) [17](./day17.html)  [18](./day18.html) [19](./day19.html) [20](./day20.html) [21](./day21.html)
-### [22](./day22.html) [23](./day23.html) [24](./day24.html) [25](./day25.html) [26](./day26.html) [27](./day27.html) [28](./day28.html)
-### [29](./day29.html) [30](./day30.html) [31](./day31.html) [32](./day32.html) [33](./day33.html) [34](./day34.html) [35](./day35.html)
-### [36](./day36.html) [37](./day37.html) [38](./day38.html) [39](./day39.html) [40](./day40.html) [41](./day41.html) [42](./day42.html)
-### [43](./day43.html) [44](./day44.html) [45](./day45.html) [46](./day46.html) [47](./day47.html) [48](./day48.html) [49](./day49.html)
-### [50](./day50.html)  
+<h2>Days:</h2>
+
+<div style="font-size:1.15em; font-weight:400; line-height:1.6; margin:0;">
+  <div style="margin:0.3em 0;"> 
+    <a href="./day1.html">1</a> <a href="./day2.html">2</a> <a href="./day3.html">3</a> <a href="./day4.html">4</a> <a href="./day5.html">5</a> <a href="./day6.html">6</a> <a href="./day7.html">7</a>
+  </div>
+  <div style="margin:0.3em 0;"> 
+    <a href="./day8.html">8</a> <a href="./day9.html">9</a> <a href="./day10.html">10</a> <a href="./day11.html">11</a> <a href="./day12.html">12</a> <a href="./day13.html">13</a> <a href="./day14.html">14</a>
+  </div>
+  <div style="margin:0.3em 0;"> 
+    <a href="./day15.html">15</a> <a href="./day16.html">16</a> <a href="./day17.html">17</a> <a href="./day18.html">18</a> <a href="./day19.html">19</a> <a href="./day20.html">20</a> <a href="./day21.html">21</a>
+  </div>
+  <div style="margin:0.3em 0;"> 
+    <a href="./day22.html">22</a> <a href="./day23.html">23</a> <a href="./day24.html">24</a> <a href="./day25.html">25</a> <a href="./day26.html">26</a> <a href="./day27.html">27</a> <a href="./day28.html">28</a>
+  </div>
+  <div style="margin:0.3em 0;"> 
+    <a href="./day29.html">29</a> <a href="./day30.html">30</a> <a href="./day31.html">31</a> <a href="./day32.html">32</a> <a href="./day33.html">33</a> <a href="./day34.html">34</a> <a href="./day35.html">35</a>
+  </div>
+  <div style="margin:0.3em 0;"> 
+    <a href="./day36.html">36</a> <a href="./day37.html">37</a> <a href="./day38.html">38</a> <a href="./day39.html">39</a> <a href="./day40.html">40</a> <a href="./day41.html">41</a> <a href="./day42.html">42</a>
+  </div>
+  <div style="margin:0.3em 0;"> 
+    <a href="./day43.html">43</a> <a href="./day44.html">44</a> <a href="./day45.html">45</a> <a href="./day46.html">46</a> <a href="./day47.html">47</a> <a href="./day48.html">48</a> <a href="./day49.html">49</a>
+  </div>
+  <div style="margin:0.3em 0;"> 
+    <a href="./day50.html">50</a>
+  </div>
+</div>
+
 
 
 1 - 7: Real Analysis
@@ -42,7 +62,7 @@ $$\forall \varepsilon > 0, \ \exists N \in \mathbb{N} \ \text{such that} \ \fora
 ### [Day 2: Heine Borel Theorem](./day2.html)
 
 $$
-\text{A set } X \subseteq \mathbb{R} \text{ is compact if and only if it is closed and bounded.}
+\text{A set } X \subseteq \mathbb{R} \text{ is compact if and only if it is closed and bounded}
 $$
 
 ### [Day 3: Limits in functions and sequences](./day3.html)
@@ -63,19 +83,19 @@ $$\exists c \in (a,b) \ \text{such that} \ f'(c) = \frac{f(b)-f(a)}{b-a}$$
 
 ### [Day 7: Arzelà–Ascoli theorem](./day7.html)
 
-$$(F \subset R(X),\ \text{bounded and equicontinuous}) \implies \exists \{f_{n_k}\} \to f \text{ uniformly}.$$
+$$(F \subset R(X),\ \text{bounded and equicontinuous}) \implies \exists \{f_{n_k}\} \to f \text{ uniformly}$$
 
 ### [Day 8: Cauchy-Riemann Equations](./day8.html)
 
 $$
 \frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \\
-\frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}.
+\frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}
 $$
 
 ### [Day 9: Liouville's Theorem](./day9.html)
 
 $$
-\text{A bounded entire function } f : \mathbb{C} \to \mathbb{C} \text{ is constant.}
+\text{A bounded entire function } f : \mathbb{C} \to \mathbb{C} \text{ is constant}
 $$
 
 ### [Day 10: Taylor Series](./day10.html)
@@ -88,7 +108,7 @@ $$
 ### [Day 11: Singularities](./day11.html)
 
 $$
-\varepsilon > 0,\ B_\varepsilon(z_0) \setminus \{z_0\} \subseteq U \implies z_0 \text{ is an isolated singularity.}
+\varepsilon > 0,\ B_\varepsilon(z_0) \setminus \{z_0\} \subseteq U \implies z_0 \text{ is an isolated singularity}
 $$
 
 ### [Day 12: Contour Integration](./day12.html)
@@ -105,7 +125,7 @@ $$f(z_0) = \frac{1}{2\pi i} \int_{\Gamma} \frac{f(z)}{z - z_0}\, dz$$
 
 ### [Day 15: Maximum Modulus Principle](./day15.html)
 
-$$ \text{Holomorphic } f \text{ on connected open } U,\ \lvert f(z_0) \rvert \geq \lvert f(z) \rvert\ \forall z \in U \Rightarrow f \text{ constant.}$$ 
+$$ \text{Holomorphic } f \text{ on connected open } U,\ \lvert f(z_0) \rvert \geq \lvert f(z) \rvert\ \forall z \in U \Rightarrow f \text{ constant}$$ 
 
 ### [Day 16: The Residue Theorem](./day16.html)
 
@@ -125,7 +145,7 @@ $$
 
 ### [Day 19: Branch Cuts](./day19.html)
 
-$$\text{curves removed to make a multivalued function single valued on the remaining domain.}$$
+$$\text{curves removed to make a multivalued function single valued on the remaining domain}$$
 
 ### [Day 20: Infinite Products](./day20.html)
 
@@ -158,13 +178,13 @@ $$x\ast (y+z)=x\ast y + y\ast z,  \quad \forall x,y,z \in S$$
 ### [Day 27: Euclidean Domain](./day27.html)
 
 $$
-\forall\,a,b\in R\;,\exists\,q,r\in R\;\text{ s.t. }\;a=bq+r \text{ where }f(r)<f(b).
+\forall\,a,b\in R\;,\exists\,q,r\in R\;\text{ s.t. }\;a=bq+r \text{ where }f(r)<f(b)
 $$
 
 ### [Day 28: Ideal](./day28.html)
 
 $$
-I\subseteq R\ \text{is an ideal} \iff \forall\,a,b\in I,\ r\in R:\ a+b\in I,\ ra\in I.
+I\subseteq R\ \text{is an ideal} \iff \forall\,a,b\in I,\ r\in R:\ a+b\in I,\ ra\in I
 $$
 
 ### [Day 29: Modular Arithmetic](./day29.html)
@@ -180,19 +200,19 @@ $$
 ### [Day 31: The Division Algorithm](./day31.html)
 
 $$
-a,b\in\mathbb{Z},\ b\ne0\ \Rightarrow\ \exists!\,q,r\in\mathbb{Z}\text{ such that } a=bq+r,\ 0\le r<|b|.
+a,b\in\mathbb{Z},\ b\ne0\ \Rightarrow\ \exists!\,q,r\in\mathbb{Z}\text{ such that } a=bq+r,\ 0\le r<|b|
 $$
 
 ### [Day 32: Bezout's Identity](./day32.html)
 
 $$
-a,b\in\mathbb{Z},\ \gcd(a,b)=d\ \Rightarrow\ \exists\,x,y\in\mathbb{Z} \text{ such that } ax+by=d.
+a,b\in\mathbb{Z},\ \gcd(a,b)=d\ \Rightarrow\ \exists\,x,y\in\mathbb{Z} \text{ such that } ax+by=d
 $$
 
 ### [Day 33: Unique Prime Factorization](./day33.html)
 
 $$
-n>1\in\mathbb{Z}\ \Rightarrow\ n=p_1\cdots p_k,\text{ for primes } p_i.
+n>1\in\mathbb{Z}\ \Rightarrow\ n=p_1\cdots p_k,\text{ for primes } p_i
 $$
 
 ### [Day 34: Unit Group](./day34.html)
@@ -204,37 +224,37 @@ $$
 ### [Day 35: Fermat's Little Theorem](./day35.html)
 
 $$
-p\ \text{prime},\ a\in\mathbb{Z},\ \implies\ a^{p-1}\equiv 1 \pmod{p}.
+p\ \text{prime},\ a\in\mathbb{Z},\ \implies\ a^{p-1}\equiv 1 \pmod{p}
 $$
 
 ### [Day 36: Chinese Remainder Theorem](./day36.html)
 
 $$
-x \equiv a_1\pmod{m_1}, x \equiv a_2 \pmod{m_2},\ \gcd(m_1,m_2)=1 \ \implies \text{ there exists } x \pmod{m_1m_2}.
+x \equiv a_1\pmod{m_1}, x \equiv a_2\pmod{m_2},\ (m_1,m_2)=1 \ \implies \exists\, x
 $$
 
 ### [Day 37: Wilson's Theorem](./day37.html)
 
 $$
-p\ \text{prime} \ \iff\ (p-1)! \equiv -1 \pmod{p}.
+p\ \text{prime} \ \iff\ (p-1)! \equiv -1 \pmod{p}
 $$
 
 ### [Day 38: Lagrange's Theorem](./day38.html)
 
 $$
-f(x)\in\mathbb{Z}_p[x],\ \deg f = n\implies\ f \text{ has at most }n \text{ roots in } \mathbb{Z}_p.
+f(x)\in\mathbb{Z}_p[x],\ \deg f = n\implies\ f \text{ has at most }n \text{ roots in } \mathbb{Z}_p
 $$
 
 ### [Day 39: Euler's Criterion](./day39.html)
 
 $$
-a^{\tfrac{p-1}{2}}\equiv\left(\tfrac{a}{p}\right)\pmod{p},\quad p\ \text{ odd prime },\ a\in\mathbb{Z}.
+a^{\tfrac{p-1}{2}}\equiv\left(\tfrac{a}{p}\right)\pmod{p},\quad p\ \text{ odd prime },\ a\in\mathbb{Z}
 $$
 
 ### [Day 40: Fermat's Sandwich Theorem](./day40.html)
 
 $$
-y^2 = x^3 - 2 \ \implies\ (x,y) = (3,\pm 5).
+y^2 = x^3 - 2 \ \implies\ (x,y) = (3,\pm 5)
 $$
 
 ### [Day 41: Pythagorean Triples](./day41.html)
@@ -245,19 +265,19 @@ $$
 
 ### [Day 42: Freshman's Dream](./day42.html)
 
-$$(x+y)^p \equiv x^p + y^p  \text{ in } \mathbb{Z}_p, \; p \text{ prime.}$$
+$$(x+y)^p \equiv x^p + y^p  \text{ in } \mathbb{Z}_p, \; p \text{ prime}$$
 
 ### [Day 43: Vector Spaces](./day43.html)
 
-$$\text{Abelian group }V \text{ over field }F:\ u,v\in V,\ a\in F \implies u+v\in V,\ av\in V.$$
+$$\text{Abelian group }V \text{ over field }F:\ u,v\in V,\ a\in F \implies u+v\in V,\ av\in V$$
 
 ### [Day 44: Linear Subspaces and Linear Independence ](./day44.html)
 
-$$\text{A subspace of a vector space closed under addition and scalar multiplication.}$$
+$$\text{A subspace of a vector space closed under addition and scalar multiplication}$$
 
 ### [Day 45: Dimension (of a Vector Space) ](./day45.html)
 
-$$\dim V = |B|,\; B \text{ is a basis of } V.$$
+$$\dim V = |B|,\; B \text{ is a basis of } V$$
 
 ### [Day 46: Matrix ](./day46.html)
 
@@ -269,7 +289,7 @@ $$V^* = \operatorname{Hom}(V,F)$$
 
 ### [Day 48: Dot Product](./day48.html)
 
-$$u\cdot v = \sum_{i=1}^n u_i v_i,\;$$
+$$u\cdot v = \sum_{i=1}^n u_i v_i\;$$
 
 ### [Day 49: Field Extension](./day49.html)
 
